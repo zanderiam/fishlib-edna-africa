@@ -3,7 +3,7 @@
 library(dplyr)
 
 # Read the dataset
-species_data <- read.csv("cleaned-species-table.csv")
+species_data <- read.csv("assets/cleaned-species-table.csv")
 
 # Filter out rows with duplicate speciesName
 filtered_data <- species_data %>%
